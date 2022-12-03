@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/d3ec507715.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <title>Desafío | Viajes</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar fixed-top bg-red">
+      <div class="container-xl">
+        <img class="img-fluid logo d-none d-md-block" src="./assets/images/viajes.svg" alt="logo">
+        <div>
+          <a class="navbar-brand text-white bg-hover fw-bold"  href="#carousel">Inicio</a>
+          <a class="navbar-brand text-white bg-hover fw-bold"  href="#quienes">Quienes Somos</a>
+          <a class="navbar-brand text-white bg-hover fw-bold"  href="#destacados">Destacados</a>
+          <a class="navbar-brand text-white bg-hover fw-bold"  href="#contacto">Contacto</a>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="carousel" class="carousel slide " data-bs-ride="carousel">
+
+    <div class="carousel-inner ">
+      <div class="carousel-item active" data-bs-interval="4000" >
+        <img src="./assets/images/carousel1.jpg" class="d-block w-100 vh-60 img-carousel" alt="image slide">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000" >
+        <img src="./assets/images/carousel2.jpg" class="d-block w-100 vh-60 img-carousel" alt="image slide">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000" >
+        <img src="./assets/images/carousel3.jpg" class="d-block w-100 vh-60 img-carousel" alt="image slide">
+      </div>
+  
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+  
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </section>
+
+  <main class="container" id="quienes" >
+    <h2 class="text-center fw-bold text-white mt-4" >
+      ¿QUIENES SOMOS?
+    </h2>
+    <hr>
+    <section class="row my-5"  >
+        <div class="col-md-4" >
+        
+          <span class="bar-red mb-3 text-center" >
+            <i class="text-white fs-3 fa-solid fa-plane icon"></i>
+          </span>
+          <p class="text-white text-center text-md-start" >
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, quas maiores facilis aperiam obcaecati est adipisci nulla architecto eligendi aut, odio, ducimus consectetur deserunt illo accusamus excepturi aliquid magnam animi voluptatem cumque quaerat nobis necessitatibus non! Explicabo est ea praesentium voluptatem rerum tempore illum deserunt enim fugiat earum ullam dolore atque asperiores vel, repellat corporis molestiae quas ipsa iusto expedita, quis possimus neque. Odit eos quam dicta odio in.
+          </p>
+  
+        </div>
+  
+        <div class="col-md-4 d-flex flex-column flex-md-column-reverse" >
+  
+          <span class="bar-red mb-3 text-center" >
+            <i class="text-white fs-3 fa-sharp fa-solid fa-mountain icon"></i>
+          </span>
+  
+          <p class="text-white text-center text-md-start" >
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, quas maiores facilis aperiam obcaecati est adipisci nulla architecto eligendi aut, odio, ducimus consectetur deserunt illo accusamus excepturi aliquid magnam animi voluptatem cumque quaerat nobis necessitatibus non! Explicabo est ea praesentium voluptatem rerum tempore illum deserunt enim fugiat earum ullam dolore atque asperiores vel, repellat corporis molestiae quas ipsa iusto expedita, quis possimus neque. Odit eos quam dicta odio in.
+          </p>
+          
+        </div>
+  
+        <div class="col-md-4" >
+          <span class="bar-red mb-3 text-center" >
+            <i class="text-white fs-3 fa-sharp fa-solid fa-route icon"></i>
+          </span>
+          <p class="text-white text-center text-md-start" >
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, quas maiores facilis aperiam obcaecati est adipisci nulla architecto eligendi aut, odio, ducimus consectetur deserunt illo accusamus excepturi aliquid magnam animi voluptatem cumque quaerat nobis necessitatibus non! Explicabo est ea praesentium voluptatem rerum tempore illum deserunt enim fugiat earum ullam dolore atque asperiores vel, repellat corporis molestiae quas ipsa iusto expedita, quis possimus neque. Odit eos quam dicta odio in.
+          </p>
+  
+        </div>
+  
+
+    </section>
+    
+    <h2 class="text-center fw-bold text-white mt-7" >
+      DESTACADOS
+    </h2>
+    <hr>
+    <section class="row my-5" id="destacados" >
+      
+      <div class="col-lg-3 col-sm-6 col-12">
+        <div class="card my-card">
+            <img data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Torres del paine" src="./assets/images/card1.jpg" alt="imagen viaje 1" class="card-img-top card-image">
+        
+            <div class="card-body bg-red over-scroll">
+              <p class="text-white card-text text-break" >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis dolorem minus odio, doloribus rerum quibusdam quisquam dicta possimus voluptatibus, dolores ipsam eaque ipsum praesentium vel mollitia illum, officiis molestiae sapiente rem quaerat pariatur nam. Minus nobis.
+
+              </p>
+            </div>
+            
+          </div>
+
+      </div>
+      <div class="col-lg-3 col-sm-6 col-12">
+        
+        <div class="card my-card">
+          <img src="./assets/images/card2.jpg" alt="imagen viaje 2" class="card-img-top card-image" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Atacama">
+        
+            <div class="card-body bg-red over-scroll">
+              <p class="text-white card-text text-break" >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis dolorem minus odio, doloribus rerum quibusdam quisquam dicta possimus voluptatibus, dolores ipsam eaque ipsum praesentium vel mollitia illum, officiis molestiae sapiente rem quaerat pariatur nam. Minus nobis. Lorem, ipsum dolor sit amet consectetur adipisicing.
+
+              </p>
+            </div>
+            
+        </div>
+
+      </div>
+      <div class="col-lg-3 col-sm-6 col-12">
+        
+        <div class="card my-card">
+          <img src="./assets/images/card3.jpg" alt="imagen viaje 3" class="card-img-top card-image" data-bs-toggle="tooltip"data-bs-placement="bottom" data-bs-title="Salar de Uyuni" >
+        
+            <div class="card-body bg-red over-scroll">
+              <p class="text-white card-text text-break" >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis dolorem minus odio, doloribus rerum quibusdam quisquam dicta possimus voluptatibus, dolores ipsam eaque ipsum praesentium vel mollitia illum, officiis molestiae sapiente rem quaerat pariatur nam. Minus nobis.
+
+              </p>
+            </div>
+            
+        </div>
+
+      </div>
+      <div class="col-lg-3 col-sm-6 col-12">
+        
+        <div class="card my-card">
+          <img data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Selva valdiviana" src="./assets/images/card4.jpg" alt="imagen viaje 4" class="card-img-top card-image"  >
+        
+            <div class="card-body bg-red over-scroll">
+              <p class="text-white card-text text-break" >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis dolorem minus odio, doloribus rerum quibusdam quisquam dicta possimus voluptatibus, dolores ipsam eaque ipsum praesentium vel mollitia illum, officiis.
+
+              </p>
+            </div>  
+            
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <section class="mt-7 container-xl" id="contacto" >
+    <h2 class="text-center text-white my-5 fw-bold" >CONTACTO</h2>
+    <hr>
+    <form class="row">
+     
+      <div class="col-md-6">
+        <label for="nombre" class="form-label text-white">Nombre</label>
+        <input type="text" class="form-control mb-3" required id="nombre">
+
+      </div>
+      <div class="col-md-6">
+        <label for="asunto" class="form-label text-white">Asunto</label>
+        <input type="text" class="form-control mb-3" required id="asunto">
+
+      </div>
+      
+      <div class="col-12">
+        <label for="mensaje" class="form-label text-white">Mensaje</label>
+        <textarea class="form-control mb-3" rows="8" id="mensaje" required ></textarea>
+        
+        <button class="btn btn-red text-start fw-bold fs-4 text-center text-md-start mt-3" id="send" >Enviar</button>
+        
+      </form>
+      
+      <!-- alert success -->
+    <div class="alert alert-success alert-dismissible fade mt-3" id="myAlert" role="alert">
+      <strong>Mensaje enviado!</strong> Pronto nos comunicaremos.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  
+  </div>
+  </section>
+  
+
+
+  <footer class="mt-7 bg-red footer">
+    <div class="container-xl d-flex align-items-center justify-content-around flex-column flex-md-row">
+      <h1 class="text-uppercase text-white" >viajes chile</h1>
+
+      <div class="d-flex gap-4 mt-3 mt-md-0" >
+        <a href="https://google.cl" target="_blank" >
+          <i class="text-white fs-4 fa-brands fa-github"></i>
+  
+        </a>
+        <a href="https://google.cl" target="_blank" >
+          <i class="text-white fs-4 fa-brands fa-linkedin"></i>
+
+        </a>
+        <a href="https://google.cl" target="_blank" >
+          <i class="text-white fs-4 fa-brands fa-twitter"></i>
+
+        </a>
+        <a href="https://google.cl" target="_blank" >
+          <i class="text-white fs-4 fa-brands fa-instagram"></i>
+
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/jquery.js"></script>
+  <script type="module" src="./assets/js/index.js"></script>
+
+</body>
+
+</html>
